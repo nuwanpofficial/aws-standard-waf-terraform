@@ -8,6 +8,8 @@ Configure TF Backend details. If you are using S3 fill the sections ***provider.
 
 If you do not need any specific rule configured in the following terraform script, kindlt comment out the ***rule{}*** section in the wafv2 resources terraform files. 
 
+In this script S3 bucket will be using the default S3 encryption. 
+
 **Either manage this resource through TF scripts or Manually. Otherwise inconsistancies can be occurred.**
 
 ## Modification Before Use
