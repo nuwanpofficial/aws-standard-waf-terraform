@@ -43,7 +43,7 @@ Provide the values to variables used by the script in ***terraform.tfvars*** fil
 
 - Primary Rule Group
   - Rate Limit Rule
-  - Geo Restriction Rule
+  - Geo Restriction Rule (Refering ClientIP Only)
   - Nmap Scan Block Rule
   - Blocked IPs Rule
 - AWSManagedRulesAmazonIpReputationList
